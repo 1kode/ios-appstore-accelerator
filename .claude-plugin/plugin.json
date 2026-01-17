@@ -1,0 +1,25 @@
+{
+  "name": "ios-appstore-accelerator",
+  "version": "1.0.0",
+  "description": "Guide vibe coders through iOS App Store submission. Generate compliance checklists, privacy policies, app metadata, and pre-flight reviews. Includes scripts for Info.plist validation, privacy manifest checking, screenshot validation, and privacy policy generation.",
+  "author": "1Kode",
+  "repository": "https://github.com/1Kode/ios-appstore-accelerator",
+  "homepage": "https://github.com/1Kode/ios-appstore-accelerator#readme",
+  "license": "MIT",
+  "keywords": [
+    "ios",
+    "app-store",
+    "apple",
+    "submission",
+    "privacy-policy",
+    "aso",
+    "metadata",
+    "vibe-coding"
+  ],
+  "commands": [
+    "commands/"
+  ],
+  "skills": [
+    "./"
+  ]
+}

@@ -91,16 +91,23 @@ python3 scripts/screenshot_validator.py ./screenshots/
 
 ## 💰 Recommended Tools
 
-These tools work great with this plugin:
+| Tool | What It Does | Bonus |
+|------|--------------|-------|
+| [**DigitalOcean**](https://m.do.co/c/e18421f27c6b) | Host your privacy policy page | $200 free credit |
+| [**RevenueCat**](https://www.revenuecat.com) | Manage In-App Purchases | Free tier available |
+| [**Fastlane**](https://fastlane.tools) | Automate App Store uploads | Open source |
 
-| Tool | What It Does | Why Use It |
-|------|--------------|------------|
-| [**Rentamac**](https://rentamac.io) | Mac in cloud for Xcode | Build iOS apps without owning a Mac |
-| [**RevenueCat**](https://www.revenuecat.com) | In-App Purchase management | Simplify subscriptions & IAP |
-| [**Hotpot.ai**](https://hotpot.ai) | AI screenshot generator | Create App Store screenshots fast |
-| [**Fastlane**](https://fastlane.tools) | Automate submissions | CI/CD for App Store |
+*DigitalOcean link is an affiliate link. Using it supports this project at no extra cost to you.*
 
-*Note: Some links may be affiliate links in the future. Using them supports this project at no extra cost to you.*
+---
+
+## 💜 Support This Project
+
+If this plugin saved you time, consider [becoming a sponsor](https://github.com/sponsors/1Kode).
+
+---
+
+---
 
 ---
 

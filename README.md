@@ -87,7 +87,6 @@ python3 scripts/screenshot_validator.py ./screenshots/
 - Python 3.8+ (for scripts)
 - Optional: Pillow (`pip install Pillow`) for screenshot dimension validation
 
----
 
 ## 💰 Recommended Tools
 
@@ -99,17 +98,12 @@ python3 scripts/screenshot_validator.py ./screenshots/
 
 *DigitalOcean link is an affiliate link. Using it supports this project at no extra cost to you.*
 
----
 
 ## 💜 Support This Project
 
 If this plugin saved you time, consider [becoming a sponsor](https://github.com/sponsors/1Kode).
 
----
 
----
-
----
 
 ## 🤝 Contributing
 
@@ -119,6 +113,6 @@ Contributions welcome! Please open an issue or PR.
 
 MIT
 
----
+
 
 Built with 💜 for the vibe coding community

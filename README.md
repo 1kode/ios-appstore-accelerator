@@ -11,6 +11,62 @@ A Claude Code plugin that guides vibe coders through iOS App Store submission. B
 # Install the plugin
 /plugin install ios-appstore-accelerator
 ```
+## 📖 How to Use
+
+### Option 1: With Claude Code (Recommended)
+
+If you have Claude Code CLI installed:
+```bash
+# Clone the plugin
+git clone https://github.com/1Kode/ios-appstore-accelerator.git
+
+# Go to your iOS project
+cd your-ios-project
+
+# Install the plugin
+/plugin install ../ios-appstore-accelerator
+
+# Run commands
+/appstore:checklist
+/appstore:privacy-policy
+/appstore:metadata
+/appstore:review-prepare
+```
+
+### Option 2: Run Scripts Directly
+
+Works without Claude Code. Just need Python 3.8+
+```bash
+# Clone the repo
+git clone https://github.com/1Kode/ios-appstore-accelerator.git
+cd ios-appstore-accelerator/scripts
+
+# Analyze your Info.plist
+python3 info_plist_analyzer.py /path/to/your/Info.plist
+
+# Check your screenshots
+python3 screenshot_validator.py /path/to/screenshots/
+
+# Validate your app icon
+python3 app_icon_validator.py /path/to/AppIcon.png
+
+# Generate a privacy policy
+python3 privacy_policy_generator.py --app-name "YourApp" --company "Your Company" --email "privacy@yourapp.com"
+
+# Check for Required Reason APIs
+python3 privacy_manifest_checker.py /path/to/your/project/
+```
+
+### Option 3: Just Read the Guides
+
+All the reference docs work standalone:
+
+- `references/common-rejection-reasons.md` - Top 10 rejections and how to fix them
+- `references/apple-guidelines-checklist.md` - Full compliance checklist
+- `references/privacy-manifest-guide.md` - Privacy Manifest requirements
+- `references/iap-compliance-checklist.md` - In-App Purchase rules
+- `references/export-compliance-guide.md` - Encryption export questions
+- `references/metadata-best-practices.md` - ASO optimization tips
 
 ## 📋 Commands
 
